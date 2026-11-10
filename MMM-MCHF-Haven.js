@@ -1,8 +1,8 @@
 /* global Module */
-Module.register('MMM-MischiefHomeCheck',{
+Module.register('MMM-MCHF-Haven',{
  requiresVersion:'2.38.0',
  defaults:{snapshotFile:'',internetUrl:'https://example.com/',pollSeconds:30,routerLabel:'Router',gatewayLabel:'Gateway',panelWidth:350,showHistory:true,showDeviceBreakdown:true,showTrafficStatus:true,showTrafficGraph:true,showTrafficTotals:true,staleSeconds:120},
- getStyles(){return [this.file('MMM-MischiefHomeCheck.css')];},
+ getStyles(){return [this.file('mischief-surfaces.css'),this.file('MMM-MCHF-Haven.css')];},
  start(){this.snapshot=null;this.history=[];this.lastAt=0;this.lastFresh=false;this.sendSocketNotification('HOME_START',this.config);this.timer=setInterval(()=>this.checkFreshness(),30000);},
  suspend(){clearInterval(this.timer);},resume(){clearInterval(this.timer);this.checkFreshness();this.timer=setInterval(()=>this.checkFreshness(),30000);this.sendSocketNotification('HOME_START',this.config);},
  isFresh(){const now=Date.now();return !!this.snapshot&&now-this.snapshot.observedAt<Math.max(30,Number(this.config.staleSeconds)||120)*1000&&this.snapshot.observedAt<now+30000;},

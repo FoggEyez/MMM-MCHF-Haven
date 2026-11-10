@@ -1,6 +1,6 @@
 {
-  "name": "mmm-mischiefhomecheck",
-  "version": "0.1.0",
+  "name": "mmm-mchf-haven",
+  "version": "0.2.0",
   "description": "Internet response history with optional private network telemetry.",
   "license": "MIT",
   "author": "FoggEyez",
@@ -14,12 +14,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/FoggEyez/MMM-MischiefHomeCheck.git"
+    "url": "https://github.com/FoggEyez/MMM-MCHF-Haven.git"
   },
   "bugs": {
-    "url": "https://github.com/FoggEyez/MMM-MischiefHomeCheck/issues"
+    "url": "https://github.com/FoggEyez/MMM-MCHF-Haven/issues"
   },
-  "homepage": "https://github.com/FoggEyez/MMM-MischiefHomeCheck#readme",
+  "homepage": "https://github.com/FoggEyez/MMM-MCHF-Haven#readme",
   "engines": {
     "node": ">=22"
   },

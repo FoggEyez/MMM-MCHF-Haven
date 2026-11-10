@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "module": "MMM-MischiefHomeCheck",
-  "title": "Mischief Home Check",
+  "module": "MMM-MCHF-Haven",
+  "title": "MCHF-Haven",
   "recommendedPosition": "top_right",
   "singleInstance": true,
   "requires": [],

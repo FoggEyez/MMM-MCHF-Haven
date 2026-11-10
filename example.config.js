@@ -1,5 +1,5 @@
 module.exports = {
-  module: "MMM-MischiefHomeCheck",
+  module: "MMM-MCHF-Haven",
   position: "top_right",
   config: {}
 };
