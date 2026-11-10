@@ -1,0 +1,29 @@
+{
+  "name": "mmm-mischiefhomecheck",
+  "version": "0.1.0",
+  "description": "Internet response history with optional private network telemetry.",
+  "license": "MIT",
+  "author": "FoggEyez",
+  "keywords": [
+    "magicmirror",
+    "magicmirror-module",
+    "mischief",
+    "network",
+    "internet",
+    "monitoring"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/FoggEyez/MMM-MischiefHomeCheck.git"
+  },
+  "bugs": {
+    "url": "https://github.com/FoggEyez/MMM-MischiefHomeCheck/issues"
+  },
+  "homepage": "https://github.com/FoggEyez/MMM-MischiefHomeCheck#readme",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.cjs"
+  }
+}

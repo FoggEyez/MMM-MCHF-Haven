@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "module": "MMM-MischiefHomeCheck",
+  "title": "Mischief Home Check",
+  "recommendedPosition": "top_right",
+  "singleInstance": true,
+  "requires": [],
+  "notes": "All supported settings are literal defaults in the module entry. No companion is required. This manifest documents the contract; current MMM-Config discovers defaults from JavaScript.",
+  "supportedSettings": [
+    "snapshotFile",
+    "internetUrl",
+    "pollSeconds",
+    "routerLabel",
+    "gatewayLabel",
+    "panelWidth",
+    "showHistory",
+    "showDeviceBreakdown",
+    "showTrafficStatus",
+    "showTrafficGraph",
+    "showTrafficTotals",
+    "staleSeconds"
+  ]
+}

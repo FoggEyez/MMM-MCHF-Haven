@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "observedAt": 0,
+  "internet": {
+    "ok": true,
+    "ms": 80
+  },
+  "routerReachable": true,
+  "model": "Example router",
+  "clients": {
+    "connected": 5,
+    "wifi": 3,
+    "wired": 2,
+    "other": 0,
+    "meshNodes": 1
+  },
+  "gateway": {
+    "observedAt": 0,
+    "connected": true,
+    "rates": {
+      "downMbps": 2.4,
+      "upMbps": 0.5,
+      "newErrors": 0
+    },
+    "received": 1073741824,
+    "transmitted": 536870912
+  }
+}
